@@ -28,7 +28,9 @@ function App() {
     classificacao: 3
   });
 
-  const baseUrl = 'https://api.eventos-app-theo.com/';
+  //const baseUrl = 'https://api.eventos-app-theo.com/'; // -> prod url - pelo aws
+  const baseUrl = 'http://api-eventos-env.eba-hesu7ymk.us-east-2.elasticbeanstalk.com/'; // -> test url http
+  // const baseUrl = 'https://web-production-fa6f8.up.railway.app/'; // -> test url railway
 
   // Fetch events and comments from APIs
   useEffect(() => {
