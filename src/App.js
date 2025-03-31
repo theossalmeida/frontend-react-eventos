@@ -28,7 +28,7 @@ function App() {
     classificacao: 3
   });
 
-  const baseUrl = 'http://api-eventos-env.eba-hesu7ymk.us-east-2.elasticbeanstalk.com/';
+  const baseUrl = 'https://api-eventos-env.eba-hesu7ymk.us-east-2.elasticbeanstalk.com/';
 
   // Fetch events and comments from APIs
   useEffect(() => {
