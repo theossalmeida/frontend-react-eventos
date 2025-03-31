@@ -28,7 +28,7 @@ function App() {
     classificacao: 3
   });
 
-  const baseUrl = 'api.eventos-app-theo.com/';
+  const baseUrl = 'https://api.eventos-app-theo.com/';
 
   // Fetch events and comments from APIs
   useEffect(() => {
